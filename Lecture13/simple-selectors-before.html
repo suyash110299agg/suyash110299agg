@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Selectors</title>
+<style>
+	/*all h2 elements*/
+	h2{
+		color: red;
+		text-align: center;
+	}
+
+	/*all with class="highlight"*/
+	.highlight{
+		font-size: 20px;
+		font-weight: bold;
+		font-style: italic;
+		background-color: green;
+		opacity: .6;
+	}
+
+	#mainPoint{
+		font-size: 24px;
+		font-weight: bold;
+		background-color: red;
+		opacity: .7;
+	}
+
+	/*all p AND h1 elements*/
+	p, h1{
+		color: blue;
+		text-align: center;
+	}
+
+</style>
+</head>
+<body>
+
+	<h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1 (h2)</h2>
+    <p class="highlight">Short paragraphs are easier to read and understand. ... Writing experts recommend paragraphs of no more than 150 words in three to eight sentences. Paragraphs should never be longer than 250 words. Vary the lengths of your paragraphs to make them more interesting.</p>
+    <p class="highlight">Short paragraphs are easier to read and understand. ... Writing experts recommend paragraphs of no more than 150 words in three to eight sentences. Paragraphs should never be longer than 250 words. Vary the lengths of your paragraphs to make them more interesting.</p>
+    <h2>Subheading 2 (h2)</h2>
+    <p>Short paragraphs are easier to read and understand. ... Writing experts recommend paragraphs of no more than 150 words in three to eight sentences. Paragraphs should never be longer than 250 words. Vary the lengths of your paragraphs to make them more interesting.</p>
+    <div>This is the main point of the entire article. So attribute
+    	<span id="mainPoint">id="mainPoint".</span>
+    </div>
+</body>
+</html>
